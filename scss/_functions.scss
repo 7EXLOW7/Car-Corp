@@ -1,0 +1,15 @@
+@use 'sass:map';
+@use 'maps' as *;
+
+@function px-to-rem($px) {
+  @return $px / 16px * 1rem;
+}
+
+@function get-breakpoint($key) {
+  @return map.get($breakpoints, $key);
+}
+
+@function get-z-index($key) {
+  @return map.get($z-index, $key);
+}
+

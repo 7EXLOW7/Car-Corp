@@ -1,0 +1,12 @@
+$breakpoints: (
+  mobile: 600px,
+  desktop: 601px
+);
+
+$z-index: (
+  base: 1,
+  dropdown: 10,
+  popup-overlay: 100,
+  popup-content: 101
+);
+
